@@ -6,6 +6,10 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <strings.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+#include "http_parser.h"
 
 #include "monaco.h"
 #include "monaco_ev.h"
